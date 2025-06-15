@@ -1,37 +1,37 @@
 # Aquarius Mobile App
 
-Aplicación móvil Android desarrollada en Java y Jetpack Compose que permite realizar operaciones CRUD sobre la tabla **Empleado**, con soporte para almacenamiento local con **SQLite** y sincronización con servicios web REST.
+An Android mobile application developed using **Java** and **Jetpack Compose** that performs CRUD operations on the **Employee** table. It supports **local storage with SQLite** and **synchronization with RESTful web services**.
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
 - Android Studio (API 34+)
 - Java
 - Jetpack Compose
 - Room (SQLite)
 - Retrofit
-- MVVM
+- MVVM Architecture
 - LiveData / ViewModel
-- Material Design
-- Sincronización offline-online
+- Material Design 3
+- Offline and online sync
 
-## 📱 Características
+## 📱 Features
 
-- 📋 Listado de empleados
-- ➕ Agregar nuevo empleado
-- ✏️ Editar empleado existente
-- 🗑️ Eliminar empleado
-- 🌐 Sincronización con backend usando API REST
-- 💾 Soporte offline (datos locales en SQLite)
+- 📋 View employee list
+- ➕ Add new employee
+- ✏️ Edit existing employee
+- 🗑️ Delete employee
+- 🌐 Sync with backend using REST API
+- 💾 Offline support with local SQLite storage
 
 ## 🌍 Backend
 
-Este proyecto se conecta al backend disponible en:
+This app connects to the backend available at:
 
 👉 [Aquarius Backend (Spring Boot)](https://github.com/lojaponce/app-aquarius-backend)
 
-## 🔧 Cómo Ejecutar
+## 🔧 Getting Started
 
-1. Clona el repositorio:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/lojaponce/aquarius-mobile-app.git
